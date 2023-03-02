@@ -1,0 +1,166 @@
+@media{
+    body{
+        min-width: 1024px;
+    }
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+.body{
+    background-color: #40407A;
+    color: #40407A;
+    font-family: "Verdana", "Arial", "sans-serif";
+
+}
+header{
+    background-color: #40407A;
+    background-image: url("sunrise.jpg");
+    color: #FFFFFF;
+    max-width: 1600px;
+    margin: 0;
+    background-size: 100% 100%;
+    margin-top: 50px;
+    font-size: 120%;
+}
+
+nav{
+    height: auto;
+}
+
+footer{
+
+    font-style: italic;
+    font-size: small;
+    text-align: center;
+    clear: right;
+
+}
+
+.nav{
+    text-align: right;
+    background-color: white;
+    margin: 0;
+    padding-top: .5em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 50px;
+    font-weight: bold;
+
+}
+nav a{text-decoration: none}
+
+
+
+footer a{
+    text-decoration: none;
+}
+
+li, dd{
+    font-size: 90%;
+}
+
+#wrapper{
+    alignment: center;
+    background-color: #F5F5F5;
+    padding: 2em;
+    margin: auto;
+    width: 80%;
+}
+
+.home{
+    height: 50vh;
+    padding-top: 5em;
+    padding-left: 8em;
+
+
+
+}
+
+.content{
+    height: 30vh;
+    padding-top: 2em;
+    padding-left: 8em;
+
+}
+
+#mathero{
+    height: 300px;
+    background-image: url("yogamat.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: none;
+}
+
+#loungehero{
+    height: 300px;
+    background-image: url("yogalounge.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: none;
+}
+
+h2{
+    margin: 0;
+}
+
+.link{
+    color: #3F2860;
+}
+
+.visited{
+    color: #497777;
+}
+
+.hover{
+    color: #A26100;
+}
+
+section{
+    padding-left: .5em;
+    padding-right: .5em;
+
+}
+
+#flow{
+  display: flex;
+    flex-direction: row;
+}
+table{
+
+    border: 1px solid #40407A;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+    min-width: 400px;
+}
+td, th{
+    padding: 5px;
+    border: 1px solid #40407A;
+}
+caption{
+    margin: 1em;
+    font-weight: bold;
+    font-size: 120%;
+}
+tr:nth-of-type(even) {
+    background-color: #D7E8E9;
+}
+form{
+    display: flex;
+    flex-flow: column nowrap;
+}
+input, datalist textarea{
+    margin-bottom: .5em;
+}
+
+
+
+
